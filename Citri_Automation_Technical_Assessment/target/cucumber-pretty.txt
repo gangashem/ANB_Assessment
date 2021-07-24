@@ -1,0 +1,24 @@
+#Login feature that describe the login scenario and steps
+@LoginFeature
+Feature: Login
+
+  @Login_scenario
+  Scenario: Login to Citrii           [90m# src/test/java/Features/Login.feature:6[0m
+    [31mGiven [0m[31mI launch the citrii browser[0m [90m# Login.Ilaunchthecitriibrowser()[0m
+      [31mjava.lang.NullPointerException
+      	at StepDefinitions.Login.Ilaunchthecitriibrowser(Login.java:25)
+      	at ✽.Given I launch the citrii browser(src/test/java/Features/Login.feature:7)
+      [0m
+    [36mAnd [0m[36mi enter the username[0m          [90m# Login.iEnterTheUsername()[0m
+    [36mAnd [0m[36mi enter the password[0m          [90m# Login.iEnterThePassword()[0m
+    [36mThen [0m[36mi click on Login button[0m      [90m# Login.iClickOnLoginButton()[0m
+
+  @Close_Browser
+  Scenario: Close Browser                    [90m# src/test/java/Features/Login.feature:13[0m
+    [31mGiven [0m[31mI verified the error message[0m       [90m# Login.iVerifiedTheErrorMessage()[0m
+      [31mjava.lang.NullPointerException
+      	at StepDefinitions.ReusableMethods.ValidateTextOnPage(ReusableMethods.java:75)
+      	at StepDefinitions.Login.iVerifiedTheErrorMessage(Login.java:57)
+      	at ✽.Given I verified the error message(src/test/java/Features/Login.feature:14)
+      [0m
+    [36mThen [0m[36mI click on the close browser button[0m [90m# Login.iClickOnTheCloseBrowserButton()[0m
