@@ -14,7 +14,7 @@ import static StepDefinitions.ReusableMethods.*;
 public class Login extends InitializeDriver //Login class extend the initialize Driver Class
 {
     public static String sDefaultPath = System.getProperty("user.dir");
-    WebDriver driver = getDriver("firefox"); //
+    WebDriver driver = getDriver("firefox"); //Choose which browser to test with ("chrome" or "firefox")
 
     public Login() throws Exception {
     }
