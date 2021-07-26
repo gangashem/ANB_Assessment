@@ -10,22 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 //BELOW CLASS IS FOR Initializing the chrome driver
 public class InitializeDriver {
     protected static WebDriver driver;
-/*    protected static WebDriver getDriver(){
-        if(driver == null){
-            *//*
-             *********Read Driver from PROJECT location *//*
-            //Set system property so that we can chrome driver
-            System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-            driver = new ChromeDriver();
 
-            //Set system property so that we can chrome driver
-            System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
-            driver = new FirefoxDriver();
-        }
-        return driver;
-    }*/
-
-    public WebDriver getDriver(String browser) throws Exception{
+    protected static WebDriver Browser(String browser) throws Exception{
         if(browser.equalsIgnoreCase("chrome")) //Check if parameter passed
         {
             /*create chrome instance*/

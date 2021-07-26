@@ -56,27 +56,29 @@ formatter.match({
   "location": "Login.Ilaunchthecitriibrowser()"
 });
 formatter.result({
-  "duration": 10520091141,
-  "error_message": "java.lang.NullPointerException\r\n\tat StepDefinitions.Login.Ilaunchthecitriibrowser(Login.java:25)\r\n\tat ✽.Given I launch the citrii browser(src/test/java/Features/Login.feature:7)\r\n",
-  "status": "failed"
+  "duration": 39424056107,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login.iEnterTheUsername()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3628047704,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login.iEnterThePassword()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2227427885,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login.iClickOnLoginButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4853942520,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 13,
@@ -106,14 +108,14 @@ formatter.match({
   "location": "Login.iVerifiedTheErrorMessage()"
 });
 formatter.result({
-  "duration": 1988565187,
-  "error_message": "java.lang.NullPointerException\r\n\tat StepDefinitions.ReusableMethods.ValidateTextOnPage(ReusableMethods.java:75)\r\n\tat StepDefinitions.Login.iVerifiedTheErrorMessage(Login.java:57)\r\n\tat ✽.Given I verified the error message(src/test/java/Features/Login.feature:14)\r\n",
-  "status": "failed"
+  "duration": 2927139801,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login.iClickOnTheCloseBrowserButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10045314660,
+  "status": "passed"
 });
 });

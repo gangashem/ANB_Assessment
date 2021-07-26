@@ -10,7 +10,7 @@
 3. Open Intellij IDE
 4. Locate the project from where you saved it on your local machine and open it
 5. If any errors, Resolve the dependencies on the pom.xml file.
-6. Choose which browser to test with. (This can be done by changing line 17 on the "Login" class)
+6. Choose which browser to test with. (This can be done by changing line 21 on the "Login" class)
 7. Right click on the "TestRunner" class and then click Run 'TestRunner', else you can just click on the Run 'TestRunner' button
 
 Instruction on how to open report

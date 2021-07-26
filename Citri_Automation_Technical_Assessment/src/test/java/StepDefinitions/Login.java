@@ -14,11 +14,18 @@ import static StepDefinitions.ReusableMethods.*;
 public class Login extends InitializeDriver //Login class extend the initialize Driver Class
 {
     public static String sDefaultPath = System.getProperty("user.dir");
-    WebDriver driver = getDriver("firefox"); //Choose which browser to test with ("chrome" or "firefox")
+    public static WebDriver driver;
+
+    static {
+        try {
+            driver = Browser("firefox"); //Choose which browser to test with ("chrome" or "firefox")
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     public Login() throws Exception {
     }
-    //public InitializeChromeDriver InitD = new InitializeChromeDriver();
 
     @Given("^I launch the citrii browser$")
     public void Ilaunchthecitriibrowser() throws Throwable {
