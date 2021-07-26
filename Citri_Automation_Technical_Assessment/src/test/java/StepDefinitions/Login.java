@@ -18,7 +18,7 @@ public class Login extends InitializeDriver //Login class extend the initialize 
 
     static {
         try {
-            driver = Browser("firefox"); //Choose which browser to test with ("chrome" or "firefox")
+            driver = Browser("chrome"); //Choose which browser to test with ("chrome" or "firefox")
         } catch (Exception e) {
             e.printStackTrace();
         }

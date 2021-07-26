@@ -56,28 +56,28 @@ formatter.match({
   "location": "Login.Ilaunchthecitriibrowser()"
 });
 formatter.result({
-  "duration": 39424056107,
+  "duration": 18138164174,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.iEnterTheUsername()"
 });
 formatter.result({
-  "duration": 3628047704,
+  "duration": 3528427946,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.iEnterThePassword()"
 });
 formatter.result({
-  "duration": 2227427885,
+  "duration": 2230608003,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.iClickOnLoginButton()"
 });
 formatter.result({
-  "duration": 4853942520,
+  "duration": 3331732200,
   "status": "passed"
 });
 formatter.scenario({
@@ -108,14 +108,14 @@ formatter.match({
   "location": "Login.iVerifiedTheErrorMessage()"
 });
 formatter.result({
-  "duration": 2927139801,
+  "duration": 2616727411,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.iClickOnTheCloseBrowserButton()"
 });
 formatter.result({
-  "duration": 10045314660,
+  "duration": 26789299202,
   "status": "passed"
 });
 });
